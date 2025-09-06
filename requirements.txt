@@ -1,12 +1,5 @@
-# Core
-streamlit==1.49.1
-pandas==2.3.2
-numpy==2.3.2
-altair==5.5.0
-pydeck==0.9.1
-
 # Google AI
-google-generativeai==0.8.5
+# google-generativeai==0.8.5   <-- REMOVE this
 google-api-core==2.25.1
 google-api-python-client==2.181.0
 google-auth==2.40.3
@@ -15,36 +8,10 @@ googleapis-common-protos==1.70.0
 proto-plus==1.26.1
 protobuf==5.29.5
 
-# LangChain
+# LangChain + Gemini
 langchain==0.3.27
 langchain-core==0.3.75
 langchain-community==0.3.29
 langchain-google-genai==2.1.10
 langchain-text-splitters==0.3.11
 langsmith==0.4.23
-
-# Vector DB + PDF
-faiss-cpu==1.12.0
-pypdf==6.0.0
-
-# Utilities
-python-dotenv==1.1.1
-requests==2.32.5
-tqdm==4.67.1
-tenacity==9.1.2
-typing-inspect==0.9.0
-typing-inspection==0.4.1
-typing_extensions==4.15.0
-
-# Audio / File handling
-soundfile==0.13.1
-filetype==1.2.0
-pillow==11.3.0
-pyarrow==21.0.0
-
-# Async + Web
-httpx==0.28.1
-httpx-sse==0.4.1
-aiohttp==3.12.15
-anyio==4.10.0
-nest-asyncio==1.6.0
